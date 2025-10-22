@@ -1,0 +1,4 @@
+Primer 17 746
+CLRS 12 720
+Bloch 7 350
+Primer 6 726

@@ -1,0 +1,5 @@
+Primer 5 10
+Primer 12 58
+CLRS 12 60
+Bloch 7 50
+Primer 6 121
