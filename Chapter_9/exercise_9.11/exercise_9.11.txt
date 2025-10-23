@@ -1,0 +1,6 @@
+1.    std::vector<type> vec(std::vector<type>::size_type y, type::value_type x);
+2.    std::vector<type> vec1(vec);
+3.    std::vector<type> vec2(container.beginRangeIterator, container.endRangeIterator);
+4.    std::vector<type> vec3 = {...};
+5.    std::vector<type> vec4 = vec3;
+6.    std::vector<type> vec5{...}; or std::vector<type> vec5(std::vector<type>::size_type y); or std::vector<type> vec5; (default)

@@ -1,0 +1,3 @@
+There are two constraints:
+	1. Both iterators should refer to two elements or to one past the last element of the same container. 
+	2. One of the iterators can be incremented a finite number of times to reach the other. 

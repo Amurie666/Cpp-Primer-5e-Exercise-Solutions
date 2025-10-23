@@ -1,0 +1,7 @@
+1. std::vector<std::string> lst;
+2. auto iter = lst.begin();
+3. while (std::cin >> word)
+4. 	iter = lst.insert(iter, word);	// same as calling push_front
+
+// No difference, but it is inefficient to insert at the front of the vector.
+		

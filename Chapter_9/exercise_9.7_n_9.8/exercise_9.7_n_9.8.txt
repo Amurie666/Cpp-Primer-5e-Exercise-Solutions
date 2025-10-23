@@ -1,0 +1,2 @@
+Exercise 9.7: std::vector<int>::size_type.
+Exercise 9.8: std::list<std::string>::const_iterator to read and std::list<std::string>::iterator to write.

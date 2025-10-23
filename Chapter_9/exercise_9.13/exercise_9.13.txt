@@ -1,0 +1,2 @@
+std::vector<double> vec1(list_of_ints.begin(), list_of_ints.end()).
+std::vector<int> vec2(vec_of_ints.begin(), vec_of_ints.begin()).

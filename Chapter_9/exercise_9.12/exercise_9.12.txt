@@ -1,0 +1,6 @@
+copy-container constructor:
+        -requires an argument of the same container type.
+        -therefore, the element type of the object and the argument must match.
+copy-iterator-range constructor:
+        -the container argument is not required to have the same type.
+        -copy is valid as long as conversion of the container argument's element type to the object's element type is possible.

@@ -1,0 +1,15 @@
+Exercise 9.9:
+The begin() function:
+	-has an overloaded, const-qualified version that returns a const iterator.
+	-returns a non-cost iterator referring to the first element of the container when called on a non-const container.
+	-returns a const iterator when called on a const container.
+The cbegin() function:
+	-always returns a const iterator referring to the first element of the container.
+	-can be called on both const and non-const objects, and it thus has an overloaded, const-qualified version.
+
+Exercise 9.10:
+	it1: vector<int>::iterator.
+	it2: vector<int>::const_iterator.
+	it3: vector<int>::const_iterator.
+	it4: vector<int>::const_iterator.
+

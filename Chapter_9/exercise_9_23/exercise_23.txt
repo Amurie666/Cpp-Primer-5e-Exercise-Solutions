@@ -1,0 +1,1 @@
+They will all have the same value, c[0].

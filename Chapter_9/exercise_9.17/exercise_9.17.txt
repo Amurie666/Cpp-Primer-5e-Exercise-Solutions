@@ -1,0 +1,2 @@
+1. If c1 and c2 are containers of different types, a user defined version of the operator< function must be defined.
+2. Otherwise, the element type of the containers must support an overloaded operator< function. 

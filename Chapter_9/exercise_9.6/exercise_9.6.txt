@@ -1,0 +1,1 @@
+The list class does not define the operators > and <. To address this, we use the '!=' operator, which is always guaranteed to be defined for library container iterators.
