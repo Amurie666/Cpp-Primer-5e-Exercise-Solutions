@@ -1,0 +1,3 @@
+First Question: erase will not do anything, and no element will be removed.
+
+Second Question: all elements starting from elem1 to elem2 will be removed.

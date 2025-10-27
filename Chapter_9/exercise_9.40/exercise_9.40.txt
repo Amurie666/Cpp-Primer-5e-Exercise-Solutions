@@ -1,0 +1,1 @@
+For a resize of 256+256/2 words, the capacity is still 1024, as reserved by the second line. Similarly, for 512 and 1000 words, the capacity is still 1024. For 1048, the capacity exceeds 1024; in that case, the capacity is likely to be 2048.

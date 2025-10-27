@@ -1,0 +1,1 @@
+Doing so assumes that the element type allows for default initialization. For a user defined type, the type must have a default constructor.

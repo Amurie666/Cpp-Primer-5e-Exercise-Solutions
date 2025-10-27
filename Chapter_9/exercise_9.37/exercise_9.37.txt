@@ -1,0 +1,3 @@
+The capacity member is needed to minimize the overhead of inserting new elements to a vector once it's full. 
+
+Because the elements of a list need not be stored contiguously, the overhead of inserting new elements in a list is constant. Similarly, the number of elements in an array cannot exceed a certain threshold, thus new elements can not be inserted once the array is filled, making it redundant to define a capacity member for the array type.

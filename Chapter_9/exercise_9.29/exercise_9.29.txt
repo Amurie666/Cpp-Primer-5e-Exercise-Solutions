@@ -1,0 +1,2 @@
+1. vec.resize(100) adds 75 default initialized elements to the back of the vector.
+1. vec.resize(10) destroys 90 elements from the back of the vector.

@@ -1,0 +1,2 @@
+A vector's size is the number of elements currently contained by the vector. A vector's capacity is the number of elements the vector may contain; it is an unconstructed slot of
+memory waiting to be constructed with (an) element(s).

@@ -1,0 +1,2 @@
+The fragment pre-allocates 1024 elements if not already pre-allocated by the vector. The fragment then inserts elements into the vector. Lastly, the fragment extends
+the vector so that it contains as many elements as one and half the size of the current vector; these elements are string-default-initialized. 

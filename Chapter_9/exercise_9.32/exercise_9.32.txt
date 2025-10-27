@@ -1,0 +1,1 @@
+It is legal. Nonetheless, by doing so we risk having a faulty implementation of the program because the order of argument-evaluation is unspecified in C++. If the first argument is selected first, the statement will execute properly. However, if the second argument is selected first, the entire container will be filled with duplicate values, which is undesired.
