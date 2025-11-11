@@ -1,0 +1,23 @@
+Input Iterators													 
+	- Equality and inequality operators (==, !=).								 
+	- Prefix and postfix increment (++).									 
+	- Dereference operator (*), which may appear only on the right-hand side of an assignment.		 
+	- The arrow operator (->) as a synonym for (*it).member.					 	 
+Forward Iterators												 
+	- Same operations as input and output iterators.							 
+	- Unlike input and output iterators, forward iterators can read or write the same element multiple times.
+Bidirectional Iterators												 
+	- All operations of forward iterators.									 
+	- Prefix and postfix decrement (--) operators.								 
+Random-access Iterators												 
+	- Operator + such that iter + n is valid.								 
+	- Similarly, operator - such that iter - n is valid.							 
+	- Operator += and -= such that iter += n and iter -= n are valid.						
+	- Operator - such that iter1 - iter2.
+	- Operators >, >=, <, <=.
+	- Subscript operator [] so that iter[n] is valid.
+----------------------------------------------------------------------------------------------------------------
+Output Iterators
+	- Prefix and postfix increment (++).
+	- Dereference operator (*), appearing only on the left-hand side of an assignment.
+	

@@ -1,0 +1,1 @@
+If both rosters held C-style strings, the operator == will be invoked on C-style strings, comparing only the first characters of the elements of rosters, which is likely to give us a false result.

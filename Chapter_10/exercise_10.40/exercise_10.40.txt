@@ -1,0 +1,6 @@
+Copy: input and output iterators, since elements need to be copied sequentially only once. No need to traverse backwards.
+
+Reverse: needs the ability to traverse bidirectionally, hence bidirectional iterators.
+
+Unique: forward iterators because elements need to be compared with each other and re-adjusted accordingly.
+

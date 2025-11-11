@@ -1,0 +1,1 @@
+It takes one or up to one argument more than the number of arguments of the function to which it is bound.

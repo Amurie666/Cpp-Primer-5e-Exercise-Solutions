@@ -1,0 +1,1 @@
+The return type of accumulate() is the type of its third argument, which, in this case, is int. Thus, all floating point data will be lost when the function returns.

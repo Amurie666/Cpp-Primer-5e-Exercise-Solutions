@@ -1,0 +1,3 @@
+The back_inserter iterator inserts elements at the back of the container. 
+The front_inserter iterator inserts elements at the front of the container.
+The inserter creates iterator an iterator that uses insert. It takes a second argument that is an iterator to the given container and inserts new elements ahead of this argument.

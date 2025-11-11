@@ -1,0 +1,4 @@
+replace(beg, end, old_val, new_val); /* replaces each element that has value of old_val in range [beg, end) by a new element holding the value new_val. */
+replace_if(beg, end, pred, new_val); /* replaces each element that satisfies the predicate pred in range [beg, end) by an element holding the value new_val. */
+replace_copy(beg, end, dest, old_val, new_val); /* copies all elements, except those that have the value old_value, of the range [beg, end) into the range denoted by dest. Every element that holds old_val is replaced by an element that holds new_val in the new range denoted by dest. */
+replace_copy_if(beg, end, dest, pred, new_val);  /* copies all elements, except those that satisfy the predicate pred, of the range [beg, end) into the range denoted by dest. All elements that satisfy pred are replaced by elements holding the value new_val in the new range denoted by dest. */

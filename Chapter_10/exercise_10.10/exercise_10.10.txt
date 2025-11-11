@@ -1,0 +1,1 @@
+Algorithms have no direct access to the container on which they operate on. They are only passed iterators of the container's elements; not a reference to the container.
