@@ -1,0 +1,4 @@
+The type used to subscript a map is key_type. The type return by the subscript operator is mapped_type. Example:
+std::map<std::string, unsigned int> m = { {"Mark", 18} };
+std::string name = "Mark";
+int age = m[name];

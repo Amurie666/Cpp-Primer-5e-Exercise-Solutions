@@ -1,0 +1,6 @@
+In general, we have:
+mapped_type = type of the values to which keys are mapped.
+key_type = type of the key.
+value_type = the type std::pair<key_type, mapped_type>.
+
+Thus, in this case: mapped_type is vector<int>; key_type is int; and value_type is pair<int, vector<int>>.

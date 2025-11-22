@@ -1,0 +1,1 @@
+A set contains unique ordered elements of exactly one type. A list guarantees neither order nor uniqueness.

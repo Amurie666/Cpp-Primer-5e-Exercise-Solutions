@@ -1,0 +1,4 @@
+1) Legal. Attempts to copy elements from v into c before the end of c.
+2) Illegal. A set does not define push_back().
+3) Legal.
+4) Legal.

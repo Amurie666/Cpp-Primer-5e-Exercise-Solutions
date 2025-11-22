@@ -1,0 +1,2 @@
+trans_map[key] = value.substr(1); 	// This assigns a new value to the pair with the key = key if the pair already exists in the map.
+trans_map.insert({key, value.substr(1)}); 	// This does nothing if a pair with key = key already exists in the map.

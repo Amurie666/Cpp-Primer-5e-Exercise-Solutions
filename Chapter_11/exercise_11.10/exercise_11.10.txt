@@ -1,0 +1,1 @@
+A map from a vector<int>::iterator to int is allowed. A map from list<int>::iterator to int is not allowed because not only does the key type not satisfy strict weak ordering in this case, it also does not satisfy any kind of ordering; iterators of list do not define the operator <.

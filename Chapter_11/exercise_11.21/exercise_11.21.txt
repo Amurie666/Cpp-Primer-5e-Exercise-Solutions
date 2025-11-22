@@ -1,0 +1,5 @@
+It will be easier to understand the expression by first parenthesizing it as follows:
+++(((word_count.insert({word, 0})).first)->second)
+First, (word_count.insert({word, 0})) is evaluated, giving us an object of type pair<iterator, bool>, which we'll call obj. Then (obj).first holds an iterator to the element, which we'll call elem, of word_count with the key word.
+We then use the -> operator to fetch the value of elem to which word is mapped. 
+Finally, we increment that value.

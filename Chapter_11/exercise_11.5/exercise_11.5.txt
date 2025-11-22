@@ -1,0 +1,3 @@
+A map forms a relation between one type and another through key-value pairs.
+A set contains unique elements of exactly one type. 
+We use set when we want to store unique values, and use map when we want to associate one type of data with another.

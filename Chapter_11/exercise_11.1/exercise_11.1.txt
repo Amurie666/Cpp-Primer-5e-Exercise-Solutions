@@ -1,0 +1,13 @@
+A map is an associative container that stores key-value pairs to associate unique keys with values; each value can be accessed by a corresponding unique key. A vector, on the other hand, is a sequential container that uses indices to store elements. 
+
+The keys of a map must be of a type that meets specific requirements such as defining the operators = and <. In contrast, the indices of a vector must always be of an unsigned integer type.
+
+In a vector, we could store the following structure:
+1 : 5
+2 : 10
+3 : 15.
+
+A map, in contrast, allows for the following structure:
+cat : 5
+dog : 10
+horse : 15.

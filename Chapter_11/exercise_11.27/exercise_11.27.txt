@@ -1,0 +1,4 @@
+count(): to count the number of occurrences of a specific element; usually used for multi-associative-containers.
+
+find(): to find the first occurrence of a specific element; usually used used for non-multi-associative-containers.
+

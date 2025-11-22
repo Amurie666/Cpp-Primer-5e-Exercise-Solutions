@@ -1,0 +1,6 @@
+Advantages of unordered containers: 
+1. Can be used on types with no well-defined ordering relation.
+3. Quick element insertion, deletion, and retrieval.
+2. Hashing gives better average case performance.
+Advantages of ordered containers:
+1. Elements follow specific ordering relation. Requirements on keys include defining the operators == and <.

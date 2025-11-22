@@ -1,0 +1,5 @@
+list - In an application where inserting and deleting from anywhere but the back or front of the container is needed.
+vector - In an application where the numbers of elements is unknown, and the elements are likely to be inserted at the back. Random access is also needed.
+deque - Same but the elements are likely to be inserted at the front.
+map - When we need to associate elements with unique keys.
+set - When we want to store only unique elements.
