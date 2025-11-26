@@ -1,1 +1,2 @@
 The while loop terminates if any of std::cin's badbit, failbit, or eofbit is set to true.
+
