@@ -1,0 +1,1 @@
+No, a const version of push_back requires that class members should not be modified. However, one could easily modify the embedded vector of StrBlob through const push_back despite having the constness property. Same holds for const pop_back. Although legal, this is logically incoherent.

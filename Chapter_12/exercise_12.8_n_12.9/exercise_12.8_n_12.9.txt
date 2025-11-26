@@ -1,0 +1,10 @@
+Exercise_12.8
+
+	The return type should be int* because the object to which p points must be deleted at one point.
+
+Exercise_12.9
+
+	Line 1: q and r point to two distinct dynamically allocated objects. 
+	Line 2: r holds the address of q. Hence, the object previously pointed to by r is never accessible, resulting in a memory leak.
+	Line 3: q and r hold two distinct objects allocated dynamically.
+	Line 4: The object of r2 is destroyed, and r2 holds the address of the object of q2.

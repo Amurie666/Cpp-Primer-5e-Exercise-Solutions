@@ -1,0 +1,1 @@
+We can conveniently convert std::initializer_list<std::string> type to StrBlob type. The only plausible cons to think of are perhaps related to debugging.

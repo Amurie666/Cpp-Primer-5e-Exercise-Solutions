@@ -1,0 +1,4 @@
+(a) Legal. Simply uses sp.
+(b) Illegal, no defined conversion from built-in pointer to shared_ptr type.
+(c) Same.
+(c) Legal but flawed, because p becomes a dangling pointer in this case.

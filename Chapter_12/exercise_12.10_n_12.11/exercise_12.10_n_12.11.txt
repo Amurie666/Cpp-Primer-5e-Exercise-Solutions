@@ -1,0 +1,10 @@
+Exercise_12.10
+
+	Nothing is particularly wrong about the call. However, it can be optimized by just passing p directly to the function.
+
+Exercise_12.11
+
+	Memory leak. The argument passed to process is independent of p and thus has a reference count of 1. 
+	When process is done executing, the reference count decreases back to 1, but since the temporary argument is
+	destroyed upon executing the next line, the reference count becomes 0 and the object initially pointed
+	to by p is freed, invalidating p.
