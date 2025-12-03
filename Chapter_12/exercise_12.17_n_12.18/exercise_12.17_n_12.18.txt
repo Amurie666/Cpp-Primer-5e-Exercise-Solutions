@@ -1,0 +1,12 @@
+Exercise 12.17
+
+	(a) Illegal, ix is not a pointer.
+	(b) Ok. But will call delete on a pointer to stack-allocated memory, which is an undefined behavior.
+	(c) Legal.
+	(d) Ok. Same.
+	(e) Legal.
+	(f) Ok, but error-prone.
+
+Exercise 12.18
+
+	A shared pointer can be shared among other pointer objects by default, so ownership is already "released".

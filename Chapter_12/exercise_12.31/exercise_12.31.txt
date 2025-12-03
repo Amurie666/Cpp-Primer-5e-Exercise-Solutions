@@ -1,0 +1,1 @@
+If a word appears more than once on a line, the TextQuery constructor will print it out and insert it into the vector more than once.

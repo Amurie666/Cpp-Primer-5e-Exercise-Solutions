@@ -1,0 +1,1 @@
+The original version is better since it's easier to read. A shared_ptr's size is insignificant in memory. Hence, a temporary object that holds the shared_ptr returned from check(...) has little to no impact on code performance.

@@ -1,0 +1,44 @@
+Direct and Copy Forms of Initialization
+ In §2.2.1(p. 43) wesawthatC++hasseveraldifferentforms of initialization. Using
+ strings, we can start to understand how these forms differ from one another.
+ Whenweinitialize a variableusing =, we areasking the compilerto copyinitialize
+ the object by copying the initializer on the right-hand side into the object being
+ created. Otherwise, when we omit the =,weusedirect initialization.
+ When wehave a single initializer, we can use either the direct or copy form of
+ initialization. When we initialize a variable from more than one value, such as in
+ the initialization of s4 above, we must use the direct form of initialization:
+ string s5 = "hiya"; // copyinitialization
+ string s6("hiya"); // directinitialization
+ string s7(10, ’c’); // directinitialization;s7 is cccccccccc
+Section 3.2 Library string Type
+ 85
+ When we want to use several values, we can indirectly use the copy form of ini
+tialization by explicitly creating a (temporary) object to copy:
+ string s8 = string(10, ’c’); // copyinitialization;s8is cccccccccc
+ The initializer of s8—string(10,’c’)—createsa stringof the givensizeand
+ character value and then copies that value into s8. Itisasifwehadwritten
+ string temp(10, ’c’); // tempiscccccccccc
+ string s8 = temp;
+ // copytempintos8
+ Although the code used to initialize s8 is legal, it is less readable and offers no
+ 
+ visible representation).
+ ispunct(c) trueifcisapunctuation character (i.e., a character that is not a control
+ character, a digit, a letter, or a printable whitespace).
+ isspace(c) trueifciswhitespace (i.e., a space, tab, vertical tab, return, newline, or
+ formfeed).
+ isupper(c) trueifcisanuppercaseletter.
+ isxdigit(c) trueifcisahexadecimal digit.
+ tolower(c) Ifcisanuppercaseletter, returns its lowercase equivalent; otherwise
+ returns c unchanged.
+ toupper(c) Ifcisalowercaseletter, returns its uppercase equivalent; otherwise returns
+ c unchanged.
+Section 3.2 Library string Type
+ 93
+ Using a Range forto Change the Characters in a string
+ If we want to change the value of the characters in a string,wemustdefinethe
+ loop variable as a reference type (§ 2.3.1, p. 50). Remember that a reference is just
+ another name for a given object. When we use a reference as our control variable,
+ that variable is bound to each element in the sequence in turn. Using the reference,
+
+ 
