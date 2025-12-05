@@ -5,7 +5,7 @@ using namespace std;
 void runQueries(std::ifstream &infile)
 {
     TextQuery tq(infile);
-    // I prefer this loop over a do-while loop because the break occurs after the while statement which makes sense.
+    // I prefer this loop over a do-while loop.
     while (true)
     {
         std::cout << "enter word to look for, or q to quit: ";
@@ -27,4 +27,5 @@ int main()
     }
     runQueries(infile);
     infile.close();
+
 }
