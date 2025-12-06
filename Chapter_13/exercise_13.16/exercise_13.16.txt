@@ -1,0 +1,1 @@
+If the parameter in f were const numbered&, it won't be copy-initialized. The final output will change, as the three outputs will exactly be the distinct serial numbers of a, b, and c.

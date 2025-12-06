@@ -1,0 +1,1 @@
+Without a destructor, memory leak. The resources allocated by HasPtr will never be deallocated. Without a constructor, HasPtr behaves like a pointer-class allowing the sharing of resources among all other instances. 

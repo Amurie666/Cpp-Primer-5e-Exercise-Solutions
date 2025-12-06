@@ -1,0 +1,5 @@
+No. If two P_HasPtr objects are linked to the same string, then swapping is meaningless. If not, then swapping is meaningful: the first P_HasPtr object is linked to the string of the second P_HasPtr object, and the second P_HasPtr object is linked to the string of the first (similarly for use). These requirements are catered for using the ordinary std::swap<P_HasPtr, P_HasPtr>(P_HasPtr&, P_HasPtr&) because copy-initializing a temporary P_HasPtr object will only copy ps and use themselves but not the underlying string and size_t objects to which they point. 
+
+Perhaps the only possibility of P_HasPtr defining its own swap() is when users wish to write code such as swap(P_HasPtrObj1, P_HasPtrObj2) instead of std::swap(P_HasPtrObj1, P_HasPtrObj2).
+
+
