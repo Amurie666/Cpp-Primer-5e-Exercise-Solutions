@@ -14,7 +14,8 @@ public:
     StrBlob(std::initializer_list<std::string> il);
     size_type size() const { return data->size(); }
     bool empty() const { return data->empty(); }
-    // addandremove elements
+    // add and remove elements
+    void push_back(std::string&& t) { data->push_back(std::move(t)); }
     void push_back(const std::string &t) { data->push_back(t); }
     void pop_back();
     // element access
@@ -31,4 +32,5 @@ private:
     void check(size_type i, const std::string &msg) const;
 
 };
+
 #endif
