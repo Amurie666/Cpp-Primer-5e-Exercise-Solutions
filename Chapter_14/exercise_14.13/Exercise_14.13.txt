@@ -1,0 +1,1 @@
+It suffices to define operator+ for Sales_data. See Chapter_7/SALES_DATA/Sales_data.cpp.

@@ -1,0 +1,2 @@
+(a) 0-201-99999-9 10 24.95: Treats 0-201-99999-9 as string; 10 as unsigned; 24.95 as double; reads all variables correctly.
+(b) 10 24.95 0-210-99999-9: Treats 10 as string; 24.95 as unsigned (potential loss of data); and 0-201-99999-9 as double (potential loss of data).

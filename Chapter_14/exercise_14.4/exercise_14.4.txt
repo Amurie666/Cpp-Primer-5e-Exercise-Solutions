@@ -1,0 +1,8 @@
+(a) Conversion maybe needed for both operands. Hence, operator% should not be a class member.
+(b) Assignment to object. Better if defined as a class member.
+(c) Better defined as class a member, as it changes the state of the object.
+(d) Better defined as a classs member, as it might need to access internal mechanics depending on class definition.
+(e) Better defined as a non-member. It could be odd to write something like object << cout.
+(f) Non-class member. Conversion might be needed.
+(g) Non-member. Same reason.
+(h) Class member. A class may need its internal mechanics to define how objects of its type should be called.

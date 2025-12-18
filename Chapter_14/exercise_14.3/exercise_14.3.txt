@@ -1,0 +1,4 @@
+(a) Built-in version that compares two char arrays.
+(b) String operator==.
+(c) Vector operator==.
+(d) String operator==. (Converts the right-hand side to string.)
