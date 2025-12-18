@@ -1,1 +1,0 @@
-Same serial number everywhere, which is undesired.

@@ -1,1 +1,0 @@
-The call to Sales_data::Sales_data(Sales_data rhs) would require a new call to Sales_data::Sales_data(Sales_data rhs) to "copy-initialize" the parameter, but that call would also generate a new call for the same purpose, looping indefinitely.

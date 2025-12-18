@@ -1,1 +1,0 @@
-A copy constructor is a well-defined class method that defines how objects of that class type should be copied. It is used when we need to construct a copy of a class object or possibly during compiler implicit conversion.

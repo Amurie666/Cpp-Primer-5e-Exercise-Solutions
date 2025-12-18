@@ -1,1 +1,0 @@
-A destructor is a class method used to do whatever work is needed to free resources allocated or used by an object and the destroy the non-static data members. The synthesized destructor is defined to prevent destruction for some classes. Otherwise, the synthesized destructor has an empty function body. A destructor is synthesized when a class does not define its own.

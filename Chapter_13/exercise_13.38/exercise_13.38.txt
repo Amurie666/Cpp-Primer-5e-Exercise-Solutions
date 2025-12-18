@@ -1,5 +1,0 @@
-Two reasons:
-1) Increased running time.
-	Using copy-swap requires more steps to be executed. Firstly, creating a temporary copy of the right-hand object involves two iterations, one to copy a set and the other to add the message to the list of folders. Once the 	temporary copy is constructed, calling swap would, along with cost of swapping two sets, execute four loops to remove and add both messages from and to their corresponding list of folders. This is more costly than the original 	implementation of the copy-assignment operator.
-2) Inconsistent design choice. 
-	Even without the increased cost of running time, doing so would assign the left-hand side object a temporary copy of the right-hand side object—not the object itself. Because memory addresses and object-relationships uniquely 	identify the objects in the given model (as is evident in the implementation of the Message::swap function where we had noticeably opted to swap all data members and their relationships instead of simply swapping the contents 	of the two messages), such a design of the assignment operator is inconsistent with the original design choice. 

@@ -1,7 +1,0 @@
-bool fcn(const Sales_data *trans, Sales_data accum)	// trans: pointer; accum: object.
-{
-	Sales_data item1(*trans), item2(accum);		// item1 : object (copy of object pointed to by trans); item2 : object (copy of accum).
-	return item1.isbn() != item2.isbn();		// returns a temporary bool value to be used by the caller.
-}	// 1. destructor will be called to destroy item2.
-	// 2. destructor will be called to destroy item1.
-	// 3. destructor will be called to destroy accum.

@@ -1,1 +1,0 @@
-No since they use shared pointers to share data among all instances. Hence, they can rely on the synthesized version of the copy-control members to manage copy, assign, and destroy operations.

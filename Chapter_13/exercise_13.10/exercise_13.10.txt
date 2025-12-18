@@ -1,1 +1,0 @@
-The destructors of all data members are called. In this case, the destructor of the shared_ptr class is called to decrement the reference count of data. If the count reaches 0, the underlying vector is destroyed. For StrBlobPtr, the destructor of weak_ptr is called.

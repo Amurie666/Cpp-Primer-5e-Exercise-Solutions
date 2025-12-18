@@ -1,2 +1,0 @@
-Yes. The calls will all be different from each other. The reason being that the copy-constructor is invoked to copy-initialize the parameter s of f, which
-generates distinct serial number on each call. The output that is generated differs from all previously set serial numbers including those of a, b, and c.
