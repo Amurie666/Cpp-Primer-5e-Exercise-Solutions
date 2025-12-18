@@ -1,0 +1,1 @@
+Since copy constructors are not defined for StrBlob and StrBlobPtr classes, the compiler synthesizes these constructors for us. The job of the synthesized copy constructors is to member-wise copy-initialize data. Hence, when we copy two StrBlob or StrBlobPtr objects, only the underlying shared_ptr and weak_ptr objects are copied.

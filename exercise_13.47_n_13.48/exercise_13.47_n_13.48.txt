@@ -1,0 +1,1 @@
+Copies are made when moving is either not possible or not safe.

@@ -1,0 +1,1 @@
+Copies are avoided when moving is possible and safe.

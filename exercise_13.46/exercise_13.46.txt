@@ -1,0 +1,4 @@
+int? r1 = f();		//rvalue ref.
+int? r2 = vi[0];	//lvalue ref.
+int? r3 = r1;		//lvalue ref.
+int? r4 = vi[0] * f();	//rvalue ref.

@@ -1,0 +1,1 @@
+Although unique pointers cannot be copied, they can be moved. Hence, a move operation is used to move the rvalue in the return statement to the caller at destination, allowing it to steal the resources of the rvalue immediately using move constructor or move assignment operator.

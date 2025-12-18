@@ -1,0 +1,7 @@
+(1) hp = hp2;
+
+The function HasPtr& operator=(HasPtr rhs) is called with rhs being a copy of hp2. The variables hp and rhs are swapped. The parameter rhs is destroyed upon existing the function, which destroys the state previously held by hp1. Now hp1 is effectively a copy of hp2.
+
+(2) hp = std::move(hp2);
+
+The move constructor is used to construct rhs from the rvalue returned by std::move(hp2). Then (1) takes place. This is essentially akin to moving an object.

@@ -1,0 +1,13 @@
+TextQuery:
+	1. Copy (Synthesized):
+		* Only a shared pointer to the vector that contains file data is copied. There is exactly one copy of file data shared among all instances of the class.
+		* The map that associates words with pointers of line-number set is entirely copied.
+	2. Assign (Synthesized):
+		* The reference-count of the shared pointer that points to file data of the left-hand side object is decremented.
+		* The reference-count of the shared pointers pointing to line-number sets in the map of the left-hand side object is decremented.
+		* The aforementioned pointers are assigned their corresponding shared pointer values of the right-hand side object.
+	3. Destroy (Synthesized):
+		* The reference count of the shared pointer pointing to file data is decremented.
+		* The map is destroyed, which decrements the reference count of all line-number-set shared pointers.
+QueryResult:
+	Similar Argument.

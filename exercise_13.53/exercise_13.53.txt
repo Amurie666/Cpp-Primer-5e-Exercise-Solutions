@@ -1,0 +1,3 @@
+The current version of the HasPtr assignment operator is not ideal because the right-hand rvalue is moved into the parameter object and then swapped with the left-hand object.
+
+As an efficient alternative, we could simply define the move assignment so as to move the resources into the left-hand object directly. See HASPTR/HasPtr.h.

@@ -1,0 +1,11 @@
+Infinite recursion.
+
+Foo::sorted() const & is called on const or non-const lvalues.
+
+ret is a non-const lvalue.
+
+Unless, another version of Foo::sorted() exists with the const qualifier omitted, the following statement would call Foo::sorted() const &:
+
+ret.sorted();,
+
+causing infinite recursion.

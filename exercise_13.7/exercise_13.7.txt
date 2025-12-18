@@ -1,0 +1,1 @@
+The shared_ptr, or weak_ptr, along with other irrelevant members of the right-hand side object are assigned to those of the left-hand side object. The reference count of the left-hand side object is decremented for StrBlob. Weak_ptrs do not impact the reference count.

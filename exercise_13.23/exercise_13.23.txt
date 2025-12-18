@@ -1,0 +1,2 @@
+The assignment operator needs to save resources before performing deletion and copying. Hence, we store the resources to be copied in a temporary object, delete the 
+object to which a value will be assigned, and assign all values of the right-hand side object to their corresponding values in the left-hand side object. Return *this.

@@ -1,0 +1,1 @@
+An rvalue reference is a reference that must be bound to an rvalue. An rvalue reference is obtained by using && rather than &. An lvalue reference is a reference that must be bound to an lvalue; obtained by using &. Rvalues are ephemeral; Lvalues persist.

@@ -1,0 +1,1 @@
+Both provide equally good match. The call is ambiguous.
