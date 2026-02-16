@@ -1,0 +1,1 @@
+Read binds a reference of type istream - a class from which ifstream inherits - to an object of type ifstream. Dynamic binding takes place during run time to achieve the desired result.

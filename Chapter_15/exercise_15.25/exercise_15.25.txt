@@ -1,0 +1,2 @@
+A default constructor here is used to allow the Disc_quote and Quote parts of the object to be default initialized. 
+Without it, no default constructor exists for Dis_quote, and hence we cannot default initialize a Bulk_quote object.

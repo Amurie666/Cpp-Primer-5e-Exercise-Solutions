@@ -1,0 +1,2 @@
+Base classes. A virtual destructor performs whatever operations necessary to delete the object. Otherwise, it ensures the deletionn of derived part
+of objects.

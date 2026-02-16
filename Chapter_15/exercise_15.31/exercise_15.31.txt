@@ -1,0 +1,2 @@
+(a) WordQuery objects are created first. Secondly, ~ Query(s3) objects are evaluated. Thirdly, AndQuery objects are evaluated (Query(s2) & ~ Query(s3)). Lastly, OrQuery objects are evaluated (Query(s1) | ((Query(s2) & ~ Query(s3))).
+(b) and (c) generally follow the same order.

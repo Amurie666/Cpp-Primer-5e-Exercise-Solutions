@@ -1,0 +1,1 @@
+print() in base is correct and prints basename to the given stream. print() in derived is incorrect and loops forever. To fix it, we have to use the scope operator.

@@ -1,0 +1,9 @@
+1. Legal. Pub_Derv inherits publically from Base.
+2. Illegal. Priv_Derv inherits privately from Base. 
+	If the conversion were legal, we could access public members of the Base sub-object of d1 that are otherwise private in Priv_Derv.
+3. Similarly, the conversion is illegal because we would otherwise publically access protected members of Prot_Derv.
+4. Legal.
+5. Illegal. 
+	Otherwise, we could publically access members of Derived_from_Private that are public in Base but private in Priv_Derv and hence remain private in
+	Derived_from_Private.
+6. Illegal for the same reason.

@@ -1,0 +1,15 @@
+Example One:
+
+Derived dobj;
+Base* bptr = &dobj;	// bptr static type: Base*; bptr dynamic type: Derived*.
+
+Example Two:
+
+Derived dobj;
+Base& bptr = dobj;	// bptr static type: Base&; bptr dynamic type: Derived&.
+
+Example Three:
+
+Derived dobj;
+Base* bptr = &dobj;
+Derived* dptr = dynamic_cast<Derived*>(bptr);	// dptr static type: Derived*; dptr dynamic type: Derived*. Not different but the example is nice.

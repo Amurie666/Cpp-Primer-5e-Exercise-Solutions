@@ -1,0 +1,2 @@
+Static Type: The type of the variable or the object at the declaration or definition of it. Determined at compile time.
+Dynamic Type: The type of the object to which the specified pointer or reference points or refers to. Determined at run time.
