@@ -28,7 +28,7 @@ private:
     std::shared_ptr<const QueryBase> result;
 };
 
-/*
+/* IGNOREEEEEEEE THISSSSSSSSSSSSSSSS
 Query process_or(std::string leftarg, std::string rightarg)
 {
 }
@@ -268,3 +268,4 @@ public:
     }
 
 */
+
