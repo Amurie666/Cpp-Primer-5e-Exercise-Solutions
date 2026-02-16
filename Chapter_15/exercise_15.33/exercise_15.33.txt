@@ -1,0 +1,1 @@
+QueryBase is an abstract class, so it can only be copied, moved, or destroyed by its derived, non-abstract classes. It behaves similarly to Query for those operations as well.

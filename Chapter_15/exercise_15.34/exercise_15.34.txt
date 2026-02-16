@@ -1,0 +1,38 @@
+(a) Aside from the copy-control constructors, which are essentially synthesized and therefore merit no attention, constructor calls follow the following order:
+
+WordQuery(std::string word)
+Query(const std::string wrd)
+WordQuery(std::string word)
+Query(const std::string wrd)
+WordQuery(std::string word)
+Query(const std::string wrd)
+BiQuery(std::shared_ptr<const QueryBase> lhs, std::shared_ptr<const QueryBase> rhs)		// For AndQuery(QueryBase, QueryBase)
+Query(std::shared_ptr<const QueryBase> qry_opp)
+BiQuery(std::shared_ptr<const QueryBase> lhs, std::shared_ptr<const QueryBase> rhs)		// For OrQuery(QueryBase, QueryBase)
+Query(std::shared_ptr<const QueryBase> qry_opp)
+
+See Extended_Query_Program/Test.exe.
+
+(b) The calls to rep (in this case, it is named parameters) follow the following order:
+
+Query::parameters()
+OrQuery::parameters()
+WordQuery::parameters()
+AndQuery::parameters()
+WordQuery::parameters()
+WordQuery::parameters()
+
+See Extended_Query_Program/Test.exe.
+
+(c) The calls to eval (evaluate) follow the following order:
+
+Query::evaluate()
+OrQuery::evaluate()
+AndQuery::evaluate()
+WordQuery::evaluate()
+WordQuery::parameters()
+.
+.
+.
+
+See Extended_Query_Program/Test.exe.

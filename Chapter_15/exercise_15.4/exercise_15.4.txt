@@ -1,0 +1,3 @@
+(a) The compiler needs to see the definition of Derived before defining Derived. It is therefore illegal.
+(b) Correct, but not a declaration?
+(c) Incorrect. Derivation list should not be present in class declaration.

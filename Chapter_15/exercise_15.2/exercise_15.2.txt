@@ -1,0 +1,1 @@
+It prohibits ordinary users from accessing the specified data members but allows inherited classes access.

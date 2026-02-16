@@ -1,0 +1,1 @@
+That would not have an affect on the correctness of the function. It won't make a difference.

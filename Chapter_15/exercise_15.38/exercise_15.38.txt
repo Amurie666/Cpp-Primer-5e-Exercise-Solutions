@@ -1,0 +1,1 @@
+Illegal. BinaryQuery is an abstract base class. AndQuery and OrQuery do not provide the needed constructors for the last two declarations.

@@ -1,0 +1,24 @@
+#pragma once
+#define TEST
+#include <vector>
+#include <map>
+#include <set>
+#include <memory>
+#include <string>
+#include <fstream>
+#include <iostream>
+
+class QueryResult;
+
+class TextQuery
+{
+    friend class QueryResult;
+
+public:
+    TextQuery(std::ifstream &);
+    QueryResult query(std::string word) const;
+
+private:
+    std::shared_ptr<std::vector<std::string>> fptr;
+    std::map<std::string, std::shared_ptr<std::set<size_t>>> wrd_to_lines;
+};

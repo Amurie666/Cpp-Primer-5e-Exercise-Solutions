@@ -1,0 +1,1 @@
+The Query class shares resources among copies like the StrBlob class. Hence, resources are shared not copied or moved during copy and move operations. Similarly, resources are destroyed only if the last instance that points to them goes out of scope.

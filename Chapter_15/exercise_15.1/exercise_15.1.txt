@@ -1,0 +1,1 @@
+A virtual member is a type-dependant method that is declared or defined in the base class and can be redefined (overriden) in inherited classes. Through dynamic binding, the call to a virtual member will depend on the type of the underlying object that is bound to a reference or pointer to base class object.

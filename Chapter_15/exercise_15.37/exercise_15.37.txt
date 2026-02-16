@@ -1,0 +1,1 @@
+All changes are implemented in Extended_Query_Program because I have already took such an approach as my design choice. Nonetheless, the changes include moving the shared pointer std::shared_ptr<Query_base> from the Query class to the derived classes.
