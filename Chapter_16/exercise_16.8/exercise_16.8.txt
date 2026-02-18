@@ -1,0 +1,1 @@
+Generally, most types define the operator != but not all define < (list iterator type does not, for example).

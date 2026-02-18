@@ -1,0 +1,1 @@
+Instantiation is a process whereby the compiler uses deduced template parameter(s) to create a new instance of a template object using the given template arguments.
