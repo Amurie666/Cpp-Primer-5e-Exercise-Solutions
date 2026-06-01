@@ -14,13 +14,12 @@ int main()
     std::sort(items.begin(), items.end(), compareIsbn);
     for (auto it = items.begin(); it != items.end();)
     {
-        // We can't use find() here because the operator== compares all members of two Sales_item objects, which is not what we need.
-        auto lst_occur = std::find_if(items.rbegin(), items.rend(), 
-        [&it] (const Sales_item& itm) 
-        { return compareIsbn(itm, *it); }).base();
+        // We cannot use find() here because the operator== compares all members of two Sales_data objects, which is not what we need.
+        // However, as a solution, we temporarily modified operator==(const Sales_item &lhs, const Sales_item &rhs).
+        auto lst_occur = std::find(items.rbegin(), items.rend(), *it).base();
         auto sum = std::accumulate(it, lst_occur, Sales_item(it->isbn()));
         total.push_back(sum);
-        it = lst_occur;
+        it = ++lst_occur;
     }
     for (const auto &elem : total)
     {

@@ -87,9 +87,9 @@ inline bool
 operator==(const Sales_item &lhs, const Sales_item &rhs)
 {
     // must be made a friend of Sales_item
-    return lhs.units_sold == rhs.units_sold &&
-           lhs.revenue == rhs.revenue &&
-           lhs.isbn() == rhs.isbn();
+    return // lhs.units_sold == rhs.units_sold &&
+           // lhs.revenue == rhs.revenue &&
+        lhs.isbn() == rhs.isbn();
 }
 
 inline bool
